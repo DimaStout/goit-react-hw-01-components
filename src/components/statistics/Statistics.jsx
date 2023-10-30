@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 import { generateRandomColor } from '../../utils/generateRandomColor';
+
 export function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
@@ -23,6 +24,7 @@ export function Statistics({ title, stats }) {
     </section>
   );
 }
+
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(

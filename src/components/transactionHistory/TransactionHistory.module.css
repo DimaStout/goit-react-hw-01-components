@@ -15,14 +15,14 @@ th {
   font-weight: 400;
   color: white;
   padding: 15px 15px;
-  background-color: royalblue;
+  background-color: midnightblue;
   text-align: center;
 }
 td {
   text-align: center;
   color: var(--black);
   padding: 15px 15px;
-  border: solid palegreen;
+  border: solid mediumslateblue;
   border-radius: 10px;
 }
 tr:nth-child(2n) {
